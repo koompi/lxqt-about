@@ -8,7 +8,7 @@ provides=("lxqt-about")
 conflicts=("lxqt-about")
 license=("LGPL2.1")
 depends=("liblxqt" "libQt5Xdg.so")
-makedepends=("lxqt-build-tools")
+makedepends=("lxqt-build-tools" "tar" "gzip")
 source=(
 	"https://github.com/koompi/lxqt-about/archive/refs/tags/$pkgver-1.tar.gz"
 	"koompi.svg"
