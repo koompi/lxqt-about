@@ -51,7 +51,7 @@ AboutDialogPrivate::AboutDialogPrivate()
 
     iconLabel->setFixedSize(48, 48);
     iconLabel->setScaledContents(true);
-    iconLabel->setPixmap(QPixmap(QStringLiteral("/usr/share/icons/koompi/koompi-dark.svg")));
+    iconLabel->setPixmap(QPixmap(QStringLiteral("/usr/share/icons/koompi.svg")));
 
     nameLabel->setText(css + titleText());
 
