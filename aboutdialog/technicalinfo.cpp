@@ -169,7 +169,7 @@ TechnicalInfo::TechnicalInfo()
     table->add(QStringLiteral("Build type"),           buildType);
     table->add(QStringLiteral("System Configuration"), QStringLiteral(LXQT_ETC_XDG_DIR));
     table->add(QStringLiteral("Share Directory"),      QStringLiteral(LXQT_SHARE_DIR));
-    table->add(QStringLiteral("Translations"),         Translator::translationSearchPaths().join(QStringLiteral("<br>\n")));
+    // table->add(QStringLiteral("Translations"),         Translator::translationSearchPaths().join(QStringLiteral("<br>\n")));
 
 
     // ******************************************

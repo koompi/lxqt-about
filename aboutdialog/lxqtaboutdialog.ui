@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About LXQt</string>
+   <string>About KOOMPI</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
@@ -102,23 +102,6 @@
       <layout class="QVBoxLayout" name="verticalLayout_5">
        <item>
         <widget class="QTextBrowser" name="thanksBrowser">
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="translationsTab">
-      <attribute name="title">
-       <string comment="About dialog, Tab title">Translations</string>
-      </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QTextBrowser" name="translationsBrowser">
          <property name="frameShape">
           <enum>QFrame::NoFrame</enum>
          </property>
