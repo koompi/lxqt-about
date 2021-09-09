@@ -79,8 +79,8 @@ AboutDialogPrivate::AboutDialogPrivate()
 
 QString AboutDialogPrivate::titleText() const
 {
-    return QStringLiteral("<div class=name>%1</div><div class=ver>%2</div>").arg(QStringLiteral("KOOMPI"),
-                tr("Version: %1").arg(QStringLiteral("0.1.0")));
+    return QStringLiteral("<div class=name>%1</div><div class=ver>%2</div>").arg(QStringLiteral("KOOMPI Onelab"),
+                tr("Version: %1").arg(QStringLiteral("1.0")));
 
 }
 
@@ -96,9 +96,9 @@ QString AboutDialogPrivate::aboutText() const
         "<p>%7</p>"
         )
         .arg(
-            tr("KOOMPI, together with KOOMPI OS, are value-added learning and productivity tools built upon the acclaimed Linux operating system.",
+            tr("KOOMPI Onelab, together with KOOMPI, are value-added learning and productivity tools built upon the acclaimed Linux operating system and the Single Board RaspberryPi.",
                "About dialog, 'About' tab text"),
-            tr("KOOMPI OS includes a wide variety of custom applications designed and supported to meet the needs of students and employees.",
+            tr("KOOMPI Onelab includes a wide variety of custom applications designed and supported to meet the needs of students and employees.",
                "About dialog, 'About' tab text"),
             tr("%1 © %2-%3", "About dialog, 'About' tab text")
                 .arg(QStringLiteral("KOOMPI DevOps Team"), QStringLiteral("2020"), QDate::currentDate().toString(QStringLiteral("yyyy"))),

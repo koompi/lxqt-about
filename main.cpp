@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
     QCommandLineParser parser;
-    parser.setApplicationDescription(QStringLiteral("LXQt About"));
+    parser.setApplicationDescription(QStringLiteral("KOOMPI About"));
     const QString VERINFO = QStringLiteral(LXQT_ABOUT_VERSION
                                            "\nliblxqt   " LXQT_VERSION
                                            "\nQt        " QT_VERSION_STR);

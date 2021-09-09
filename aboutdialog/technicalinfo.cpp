@@ -66,7 +66,7 @@ QString TechInfoTable::html() const
     QString res;
 
     res = QStringLiteral("<style TYPE='text/css'> "
-            ".techInfoKey { white-space: nowrap ; margin: 0 20px 0 16px; } "
+            ".techInfoKey { white-space: nowrap ; margin: 0 30px 0 24px; } "
           "</style>");
 
     res += QStringLiteral("<b>%1</b>").arg(mTitle);
