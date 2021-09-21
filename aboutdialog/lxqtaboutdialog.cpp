@@ -80,7 +80,7 @@ AboutDialogPrivate::AboutDialogPrivate()
 QString AboutDialogPrivate::titleText() const
 {
     return QStringLiteral("<div class=name>%1</div><div class=ver>%2</div>").arg(QStringLiteral("KOOMPI Onelab"),
-                tr("Version: %1").arg(QStringLiteral("1.0")));
+                tr("Version: %1").arg(QStringLiteral("1.0.1")));
 
 }
 
